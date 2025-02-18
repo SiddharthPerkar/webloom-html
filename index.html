@@ -6,6 +6,17 @@
     <title>The Webloom - Digital Agency</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Floating animation for service cards */
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+        .service-card {
+            animation: float 2s ease-in-out infinite;
+        }
+    </style>
 </head>
 <body class="min-h-screen bg-white">
     <!-- Navigation -->
@@ -48,7 +59,7 @@
             <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Service Cards -->
-                <div class="bg-white p-6 rounded-xl shadow-lg">
+                <div class="bg-white p-6 rounded-xl shadow-lg service-card">
                     <div class="text-purple-600 mb-4">
                         <i data-lucide="code-2" class="w-8 h-8"></i>
                     </div>
@@ -56,7 +67,7 @@
                     <p class="text-gray-600">Custom websites built with React, Node.js, and modern frameworks</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-xl shadow-lg">
+                <div class="bg-white p-6 rounded-xl shadow-lg service-card">
                     <div class="text-purple-600 mb-4">
                         <i data-lucide="palette" class="w-8 h-8"></i>
                     </div>
@@ -64,7 +75,7 @@
                     <p class="text-gray-600">User -centered designs that drive engagement and conversions</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-xl shadow-lg">
+                <div class="bg-white p-6 rounded-xl shadow-lg service-card">
                     <div class="text-purple-600 mb-4">
                         <i data-lucide="rocket" class="w-8 h-8"></i>
                     </div>
@@ -72,7 +83,7 @@
                     <p class="text-gray-600">SEO, PPC, and social media strategies that deliver results</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-xl shadow-lg">
+                <div class="bg-white p-6 rounded-xl shadow-lg service-card">
                     <div class="text-purple-600 mb-4">
                         <i data-lucide="smartphone" class="w-8 h-8"></i>
                     </div>
@@ -80,7 +91,7 @@
                     <p class="text-gray-600">Native and cross-platform mobile applications</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-xl shadow-lg">
+                <div class="bg-white p-6 rounded-xl shadow-lg service-card">
                     <div class="text-purple-600 mb-4">
                         <i data-lucide="shopping-cart" class="w-8 h-8"></i>
                     </div>
@@ -88,7 +99,7 @@
                     <p class="text-gray-600">Complete online store solutions with secure payments</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-xl shadow-lg">
+                <div class="bg-white p-6 rounded-xl shadow-lg service-card">
                     <div class="text-purple-600 mb-4">
                         <i data-lucide="bar-chart" class="w-8 h-8"></i>
                     </div>
@@ -183,37 +194,41 @@
         <div class="container">
             <h1 style="text-align: center; margin-bottom: 20px;">Our Team</h1>
             
-            <div class="team-member">
+            <div class="team-member text-center mb-8">
+                <img src="https://placehold.co/150" alt="Siddharth Perkar" class="rounded-full mb-2">
                 <h2>Siddharth Perkar</h2>
                 <p>CEO & Co-founder</p>
-                <ul class="social-icons">
+                <ul class="social-icons flex justify-center space-x-4">
                     <li><a href="https://www.linkedin.com/in/siddharth-perkar" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a></li>
                     <li><a href="mailto:siddharthperkar@example.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a></li>
                 </ul>
             </div>
             
-            <div class="team-member">
+            <div class="team-member text-center mb-8">
+                <img src="https://placehold.co/150" alt="Abhishek Pawar" class="rounded-full mb-2">
                 <h2>Abhishek Pawar</h2>
                 <p>CTO & Co-founder</p>
-                <ul class="social-icons">
+                <ul class="social-icons flex justify-center space-x-4">
                     <li><a href="https://www.linkedin.com/in/abhishek-pawar" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a></li>
                     <li><a href="mailto:abhishekpawar@example.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a></li>
                 </ul>
             </div>
             
-            <div class="team-member">
+            <div class="team-member text-center mb-8">
+                <img src="https://placehold.co/150" alt="Darshan Mali" class="rounded-full mb-2">
                 <h2>Darshan Mali</h2>
                 <p>CMO & Co-founder</p>
-                <ul class="social-icons">
+                <ul class="social-icons flex justify-center space-x-4">
                     <li><a href="https://www.linkedin.com/in/darshan-mali" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a></li>
                     <li><a href="mailto:darshanmali@example.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a></li>
                 </ul>
             </div>
             
-            <div class="team-member">
+            <div class="team-member text-center mb-8">
+                <img src="https://placehold.co/150" alt="Samarth Kuwar" class="rounded-full mb-2">
                 <h2>Samarth Kuwar</h2>
                 <p>CIO & Co-founder</p>
-                <ul class="social-icons">
+                <ul class="social-icons flex justify-center space-x-4">
                     <li><a href="https://www.linkedin.com/in/samarth-kuwar" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a></li>
                     <li><a href="mailto:samarthkuwar@example.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a></li>
                 </ul>
