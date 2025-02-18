@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Webloom - Digital Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="text-xl font-bold text-purple-600">The Webloom</div>
+                <div class="flex gap-6">
+                    <a href="#home" class="text-gray-600 hover:text-purple-600">Home</a>
+                    <a href="#services" class="text-gray-600 hover:text-purple-600">Services</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-purple-600">Portfolio</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-purple-600">Testimonials</a>
+                    <a href="#contact" class="text-gray-600 hover:text-purple-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold tracking-tight mb-6">
+                    Transform Your Digital Presence
+                </h1>
+                <p class="text-xl max-w-2xl mx-auto mb-8">
+                    We create stunning websites, powerful brands, and results-driven marketing strategies.
+                </p>
+                <button class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                    Get Started <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Cards -->
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="code-2" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                    <p class="text-gray-600">Custom websites built with React, Node.js, and modern frameworks</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="palette" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+                    <p class="text-gray-600">User-centered designs that drive engagement and conversions</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="rocket" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Digital Marketing</h3>
+                    <p class="text-gray-600">SEO, PPC, and social media strategies that deliver results</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="smartphone" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Mobile Apps</h3>
+                    <p class="text-gray-600">Native and cross-platform mobile applications</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="shopping-cart" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">E-commerce</h3>
+                    <p class="text-gray-600">Complete online store solutions with secure payments</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="bar-chart" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Analytics</h3>
+                    <p class="text-gray-600">Data-driven insights to optimize your digital presence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Work</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://placehold.co/600x400" alt="Project" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">E-commerce Platform</h3>
+                        <p class="text-gray-600 mb-4">Built with React and Node.js processing $1M+ monthly sales</p>
+                        <div class="flex gap-2">
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">React</span>
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://placehold.co/600x400" alt="Project" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Fitness Mobile App</h3>
+                        <p class="text-gray-600 mb-4">Cross-platform fitness tracking application</p>
+                        <div class="flex gap-2">
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Flutter</span>
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://placehold.co/600x400" alt="Project" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Corporate Website</h3>
+                        <p class="text-gray-600 mb-4">Enterprise website with CMS integration</p>
+                        <div class="flex gap-2">
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">WordPress</span>
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Client Testimonials</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="thumbs-up" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Sarah Johnson</h3>
+                    <p class="text-gray-600 font-semibold mb-2">CEO, TechStart Inc</p>
+                    <p class="text-gray-600">"The Webloom transformed our online presence completely. Their team delivered beyond our expectations."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="thumbs-up" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Michael Chen</h3>
+                    <p class="text-gray-600 font-semibold mb-2">Founder, FitLife</p>
+                    <p class="text-gray-600">"Our mobile app user base grew by 300% after working with The Webloom. Highly recommended!"</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="text-purple-600 mb-4">
+                        <i data-lucide="thumbs-up" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Emma Wilson</h3>
+                    <p class="text-gray-600 font-semibold mb-2">Marketing Director</p>
+                    <p class="text-gray-600">"Their digital marketing strategies helped us double our online sales in 6 months."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-8">Get in Touch</h2>
+                
+                <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                            <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-purple-600" placeholder="Your name">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-purple-600" placeholder="your@email.com">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-purple-600 h-32" placeholder="How can we help you?"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-purple-600 text-white py-3 px-6 rounded-md hover:bg-purple-700 transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-purple-600 mb-4">
+                            <i data-lucide="mail" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2">Email</h3>
+                        <p class="text-gray-600">contact@thewebloom.com</p>
+                    </div>
+
+                    <div>
+                        <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-purple-600 mb-4">
+                            <i data-lucide="phone" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2">Phone</h3>
+                        <p class="text-gray-600">+1 (555) 123-4567</p>
+                    </div>
+
+                    <div>
+                        <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-purple-600 mb-4">
+                            <i data-lucide="map-pin" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-semibold mb-2">Location</h3>
+                        <p class="text-gray-600">New York, NY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">The Webloom</h3>
+                    <p class="text-gray-400">Transforming ideas into digital success stories</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Web Development</li>
+                        <li>Mobile Apps</li>
+                        <li>Digital Marketing</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Cookie Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 The Webloom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Update active navigation link
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav a');
+            
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 150 && rect.bottom >= 150) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('text-purple-600');
+                        if (`#${section.id}` === link.getAttribute('href')) {
+                            link.classList.add('text-purple-600');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
